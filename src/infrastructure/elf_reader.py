@@ -1,7 +1,7 @@
 from typing import Protocol
 
 import io
-from infrastructure.elf import elf64_header, elf64_program_header
+from infrastructure.elf64 import elf64_header, elf64_program_header
 
 class elf_reader():
     def __init__(self, filename: str):
